@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     <>
-    <div className="bg-[#F5F5F5] min-h-[9vh] flex flex-row items-center justify-center gap-35 text-gray-800">
+    <div className="min-h-[10vh] bg-gray-100 flex flex-row items-center justify-center gap-35 text-gray-800 shadow-xl">
         <Link href="/">
             <Image src="/LOGO-SEM-BG.png" alt="Logo" width={80} height={10} priority className=""/>
         </Link>
